@@ -2,7 +2,6 @@ interface resizable{
     void resizewidht(int width);
     void resizeheight(int height);
 }
-
 class rectangle implements resizable{
     private int width;
     private int height;
